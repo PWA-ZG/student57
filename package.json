@@ -1,0 +1,11 @@
+{
+  "name": "pwa",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "serve": "http-server ./client"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

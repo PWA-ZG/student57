@@ -1,0 +1,20 @@
+nav {
+  background: transparent;
+}
+
+nav a {
+  color: gray;
+}
+
+nav .sidenav-trigger {
+  margin: 0;
+  cursor: pointer;
+}
+
+button:focus {
+  background-color: transparent;
+}
+
+.heading {
+  margin-bottom: 2.5rem;
+}

@@ -1,0 +1,105 @@
+svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+button,
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #777;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 0.25rem;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+  border-color: #cdd;
+}
+
+.share-button,
+.copy-url {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.share-button,
+.share-dialog {
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.share-dialog {
+  display: none;
+  width: 100%;
+  max-width: 60%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  z-index: -1;
+  border: 1px solid #ddd;
+  padding: 1.25rem;
+  border-radius: 0.25.rem;
+  background-color: #fff;
+}
+
+.share-dialog.fallback {
+  display: block;
+  z-index: 2;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.platforms {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.close-button svg {
+  margin-right: 0;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: #eee;
+}
+
+.url {
+  margin-right: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

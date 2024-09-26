@@ -1,0 +1,74 @@
+.card {
+  max-width: 20rem;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-image {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  max-height: 200px;
+  max-width: 80%;
+  padding-top: 2rem;
+  display: block;
+}
+
+.card-content {
+  padding: 1.25rem;
+}
+
+.card-title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.card-description {
+  margin-bottom: 1rem;
+  color: #4b5563;
+  font-size: 1rem;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-price {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  color: white;
+  background-color: #1d4ed8;
+  border-radius: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.card-price:hover {
+  background-color: #2563eb;
+}
+
+#card-container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.card .card-content p {
+  margin: 1rem 0 0 0;
+}
+
+.card .card-content p:last-of-type {
+  letter-spacing: 1.4px;
+}
